@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  /* Premium Apple/Linear-inspired monochromatic base */
+  --background: #ffffff;
+  --foreground: #000000;
+
+  /* Brand Colors */
+  --primary: #FF5500;
+  /* Vibrant Ignite Orange */
+  --primary-foreground: #ffffff;
+
+  --secondary: #F5F5F7;
+  /* Apple Surface light */
+  --secondary-foreground: #1D1D1F;
+
+  --muted: #86868b;
+  --border: #e6e6e6;
+
+  --surface: #F5F5F7;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-surface: var(--surface);
+
+  --font-sans: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Dark mode removed to enforce specific requested Light Theme */
+
+body {
+  @apply bg-background text-foreground font-sans antialiased;
+}
