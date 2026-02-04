@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Handle SPA routing for Next.js if dynamic routes fail (usually handled by plugin, but safety first)
+# The plugin usually handles everything, but explicit settings help in monorepos.
