@@ -10,9 +10,18 @@ export async function updateSession(request: NextRequest) {
     })
 
     // Create server client to handle cookie management
+    // Create server client to handle cookie management
+    // Check if environment variables are available before creating the client
+    // This prevents build crashes in environments where secrets aren't available during build time
+    if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
+        // If env vars are missing, we can't do auth, so we just return the response
+        // This is commonly needed for static builds or when env vars are only injected at runtime
+        return response
+    }
+
     const supabase = createServerClient(
-        process.env.NEXT_PUBLIC_SUPABASE_URL!,
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+        process.env.NEXT_PUBLIC_SUPABASE_URL,
+        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
         {
             cookies: {
                 getAll() {
