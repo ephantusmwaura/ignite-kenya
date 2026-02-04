@@ -17,8 +17,8 @@ export default function ProgramsManager() {
     const [data, setData] = useState(initialData);
     const [deleteModal, setDeleteModal] = useState<{ isOpen: boolean, id: string }>({ isOpen: false, id: '' });
 
-    const handleEdit = (id: string) => {
-        alert(`Edit program ${id}`);
+    const handleEdit = (item: Record<string, unknown>) => {
+        alert(`Edit program ${item.id}`);
     };
 
     const handleDelete = () => {
