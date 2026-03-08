@@ -30,8 +30,8 @@ const GoFundMeLogo = ({ className = "w-40" }: { className?: string }) => (
 
 const impactItems = [
     { amount: "KES 1,500", label: "Art Supplies Kit", desc: "Provides paints, brushes, and canvas for one student for a month." },
-    { amount: "KES 5,000", label: "Workshop Session", desc: "Sponsors a full day community art workshop for 20 youths." },
-    { amount: "KES 10,000", label: "Exhibition Space", desc: "Helps rent space to showcase youth artwork to the public." },
+    { amount: "KES 5,000", label: "Workshop Session", desc: "A pair of boots and safety gear for one person." },
+    { amount: "KES 10,000", label: "Exhibition Space", desc: "Sponsors a full day community workshop for 20 youths." },
 ];
 
 export default function DonatePage() {

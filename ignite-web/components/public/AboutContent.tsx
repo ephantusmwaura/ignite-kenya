@@ -89,7 +89,7 @@ export default function AboutContent() {
                     >
                         <h2 className="text-2xl font-bold mb-4 text-primary">Our Vision</h2>
                         <p className="text-lg leading-relaxed">
-                            A society where creativity shapes policies and social change, fostering inclusive, transparent, and effective governance.
+                            A society every young person has a seat at the table and tools to make their voice heard.
                         </p>
                     </motion.div>
                 </div>
@@ -119,7 +119,7 @@ export default function AboutContent() {
                 <div className="max-w-4xl mx-auto px-4">
                     <h2 className="text-3xl font-bold mb-6">Who We Serve</h2>
                     <p className="text-lg opacity-90 leading-relaxed">
-                        We focus on youth aged <span className="font-bold text-primary">5–29 years</span>,
+                        We focus on young people,
                         especially those from informal settlements in <span className="font-bold text-primary">Nakuru County</span>.
                         We believe that every young person deserves a platform to spark their potential.
                     </p>

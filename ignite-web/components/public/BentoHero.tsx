@@ -133,14 +133,14 @@ export function BentoHero() {
                                     />
                                 ) : (
                                     <div className="w-full h-full flex items-center justify-center text-muted-foreground font-medium relative group-hover:scale-105 transition-transform duration-700">
-                                        <span className="sr-only">Youth Art Image</span>
+                                        <span className="sr-only">Social Justice</span>
                                         [Image: Youth Art]
                                     </div>
                                 )}
 
                                 <div className="absolute bottom-6 left-6 right-6 text-white z-20">
                                     <h3 className="text-2xl font-bold leading-tight drop-shadow-lg group-hover:text-primary transition-colors">
-                                        Free Art <br /> Education
+                                        Social <br /> Justice
                                     </h3>
                                 </div>
                             </div>

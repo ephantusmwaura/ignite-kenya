@@ -52,8 +52,8 @@ export function Footer() {
                     <h3 className="font-semibold mb-4">Contact</h3>
                     <ul className="space-y-2 text-sm text-muted">
                         <li>Nakuru County, Kenya</li>
-                        <li>info@ignitekenya.org</li>
-                        <li>+254 700 000 000</li>
+                        <li>ignitekenya32@gmail.com</li>
+                        <li>+254 740286596</li>
                     </ul>
                 </div>
             </div>
