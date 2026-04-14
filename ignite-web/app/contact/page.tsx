@@ -145,7 +145,7 @@ export default function ContactPage() {
 
                 <div className="text-center space-y-2 text-muted">
                     <p>Or verify us in person at Nakuru County.</p>
-                    <p>Email: info@ignitekenya.org</p>
+                    <p>Email: ignitekenya32@gmail.com</p>
                 </div>
 
             </div>

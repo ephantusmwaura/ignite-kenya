@@ -1,0 +1,4 @@
+# Supabase Configuration
+# Get these from: https://supabase.com/dashboard/project/_/settings/api
+NEXT_PUBLIC_SUPABASE_URL=https://tfasuqhyykxlexzeydrv.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRmYXN1cWh5eWt4bGV4emV5ZHJ2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI5ODg3NjMsImV4cCI6MjA4ODU2NDc2M30.7-gzBEPCWqAulZBYuQzMqOdX-jMjng5xD2LMqRrhPUY
